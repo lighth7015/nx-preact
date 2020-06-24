@@ -15,7 +15,7 @@
 
 <hr>
 
-# React Plugin for Nx
+# Preact Plugin for Nx
 
 ## What is Nx?
 
