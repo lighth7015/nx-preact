@@ -65,7 +65,7 @@ function createWebApp(tree, appName) {
 exports.createWebApp = createWebApp;
 function createLib(tree, libName) {
     const { fileName } = name_utils_1.names(libName);
-    tree.create(`/libs/${fileName}/src/index.ts`, `import React from 'react';\n`);
+    tree.create(`/libs/${fileName}/src/index.ts`, `import * as React from'preact';\n`);
     updateNxJson(tree, (json) => {
         json.projects[libName] = { tags: [] };
         return json;

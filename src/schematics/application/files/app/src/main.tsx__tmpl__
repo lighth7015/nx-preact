@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'preact';
 import ReactDOM from 'react-dom';
 <% if (routing) { %>
 import { BrowserRouter } from 'react-router-dom';

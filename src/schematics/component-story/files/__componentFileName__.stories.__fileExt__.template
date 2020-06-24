@@ -1,5 +1,5 @@
 <% if(usedKnobs && usedKnobs.length > 0) { %>import { <%= usedKnobs %> } from '@storybook/addon-knobs';<% } %>
-import React from 'react';
+import * as React from 'preact';
 import { <%= componentName %><% if ( propsTypeName && !isPlainJs ) { %>, <%= propsTypeName %> <% } %> } from './<%= componentFileName %>';
 
 export default {

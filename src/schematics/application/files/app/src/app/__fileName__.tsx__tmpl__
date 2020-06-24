@@ -1,7 +1,7 @@
 <% if (classComponent) { %>
 import React, { Component } from 'react';
 <% } else { %>
-import React from 'react';
+import * as React from 'preact';
 <% } %>
 
 <% if (hasStyles) {

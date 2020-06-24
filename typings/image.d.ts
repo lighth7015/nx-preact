@@ -1,8 +1,8 @@
-/// <reference types="react" />
-/// <reference types="react-dom" />
+/// <reference types="preact" />
+/// <reference types="preact/compat" />
 
 declare module '*.svg' {
-  import * as React from 'react';
+  import * as React from 'preact';
 
   export const ReactComponent: React.FunctionComponent<
     React.SVGProps<SVGSVGElement> & { title?: string }
