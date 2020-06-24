@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const workspace_1 = require("@nrwl/workspace");
+function updateNxJson(options) {
+    return workspace_1.updateJsonInTree('nx.json', (json) => {
+        json.projects[options.projectName] = { tags: options.parsedTags };
+        return json;
+    });
+}
+exports.updateNxJson = updateNxJson;
+//# sourceMappingURL=update-nx-json.js.map

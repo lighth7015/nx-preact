@@ -1,0 +1,15 @@
+{
+  "extends": "<%= offsetFromRoot %>tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": []
+  },
+  "files": [
+    "<%= offsetFromRoot %>node_modules/@lighth7015/preact/typings/cssmodule.d.ts",
+    "<%= offsetFromRoot %>node_modules/@lighth7015/preact/typings/image.d.ts"
+  ],
+  "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"]
+}

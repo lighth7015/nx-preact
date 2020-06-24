@@ -1,0 +1,26 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.nxVersion = '9.4.5';
+exports.reactVersion = '16.13.1';
+exports.reactDomVersion = '16.13.1';
+exports.typesReactVersion = '16.9.35';
+exports.typesReactDomVersion = '16.9.8';
+exports.styledComponentsVersion = '5.1.0';
+exports.typesStyledComponentsVersion = '5.1.0';
+exports.reactIsVersion = '16.13.1';
+exports.typesReactIsVersion = '16.7.1';
+exports.emotionStyledVersion = '10.0.27';
+exports.emotionCoreVersion = '10.0.27';
+exports.emotionBabelPresetCssPropVersion = '10.0.27';
+exports.reactRouterDomVersion = '5.2.0';
+exports.typesReactRouterDomVersion = '5.1.5';
+exports.testingLibraryReactVersion = '10.0.4';
+exports.reduxjsToolkitVersion = '1.3.6';
+exports.reactReduxVersion = '7.2.0';
+exports.typesReactReduxVersion = '7.1.9';
+exports.eslintPluginImportVersion = '2.20.2';
+exports.eslintPluginJsxA11yVersion = '6.2.3';
+exports.eslintPluginReactVersion = '7.20.0';
+exports.eslintPluginReactHooksVersion = '4.0.2';
+exports.babelPluginStyledComponentsVersion = '1.10.7';
+//# sourceMappingURL=versions.js.map
